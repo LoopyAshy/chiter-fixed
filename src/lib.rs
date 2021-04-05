@@ -108,7 +108,6 @@ pub fn search_first(
                     continue;
                 }
             }
-            println!("{} {} {}", *byte as char, pattern[p] as char, p);
             if byte != &pattern[p] {
                 break;
             }
